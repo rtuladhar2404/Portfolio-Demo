@@ -16,10 +16,10 @@ Building the Docker Image
  2. Building the image:
     - Navigate to project folder through terminal(for linux user) or command prompt(for windows user)
     - Run the following command to build the Docker Image:
-      -  docker run -t rtuladhar2404/calculator-project.
+      -  docker run -t portfolio-image .
 
  3. Pushing the Docker Image to DockerHub
     - Login to your DockerHub through terminal with following command
         - docker login
     - Pushing the image to Docker Hub
-        docker push rtuladhar2404/calculator-project.
+        docker push rtuladhar2404/portfolio-image .
